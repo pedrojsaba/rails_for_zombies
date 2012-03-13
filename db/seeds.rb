@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Emanuel', :city => cities.first)
+
+zombies = Zombie.create([{ :name => "Pedro"}, { :graveyard => "UPC"}])
+Tweet.create(:status => "Hola") 
+
+zombies = Zombie.create([{ :name => "Juan"}, { :graveyard => "UPC"}])
+Tweet.create(:status => "Hi") 
